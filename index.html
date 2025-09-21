@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YumMart</title>
+      <!-- Render All Elements Normally-->
+    <link rel="stylesheet" href="css/normalize.css"/>
+   <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Font Awesome Library-->
+    <link rel="stylesheet" href="css/all.min.css"/>
+     <!-- Font Awesome CDN -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xh6O/CkQo7Ix5CfV4UhCkZPSVwCmGPrDA3e4NkpSoR1/5Tdb6tZgUqJY9xkQt8dFZf5z9i6GfFhJZ6L1d0x6tw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+      <!-- Fav Icon  -->
+       <link rel="icon" href="assets/icons/YumMart.png">
+</head>
+<body>
+        <!-- Start Header -->
+    <div class="header">
+            <div class="container">
+                <span class="logo">YumMart</span>
+                <div class="links">
+                    <label for="menu-toggle" class="hidden-menu">
+                        <i class="fa-solid fa-bars "></i>
+                    </label>
+                    <input type="checkbox" id="menu-toggle">
+                    <div class="slide">
+                    <label for="menu-toggle" class="exit-menu">
+                    <i class="fa-solid fa-xmark"></i>
+                                </label> 
+                    
+                        <ul>
+                            <a href="index.html" class="active">Home</a>
+                            <a href="product.html">Products</a>
+                            <a href="about.html">About</a>
+                            <a href="contact.html">Contact</a>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+    </div>
+        <!-- End Header -->
+        <!-- Start Home Section -->
+
+             <div class="background">
+                 <div class="overlay">
+                     <div class="container">
+                         <h1>Exceptional Food & Beverage Products</h1>
+                         <p>Premium ingredients. Exceptional taste. Delivered to your doorstep.</p>
+                         <button onclick="window.location.href='product.html'">Shop Now</button>
+                         <button onclick="window.location.href='about.html'">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+         
+    <!-- End Home Section -->
+    <!-- Start Product Section -->
+     <div class="product-section">
+        <div class="container">
+            <h1><span>Featured</span> Products</h1>
+            <div class="product-content">
+                <div class="card">
+                    <img src="assets/images/bread2.jpg" alt="">
+                    <h3>Artisan Sourdough Bread</h3>
+                    <p>Handcrafted sourdough bread made with traditional fermentation methods and organic flour.</p>
+                     <div class="price-detail">
+                        <span>$8.49</span>
+                        <button>View Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/coffee2.jpg" alt="">
+                    <h3>Organic Coffee Blend</h3>
+                    <p>A smooth, rich blend of organic coffee beans with notes of chocolate and caramel.</p>
+                     <div class="price-detail">
+                        <span>$14.99</span>
+                        <button>View Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/honey2.jpg" alt="">
+                    <h3>Premium Honey Collection</h3>
+                    <p>Pure, raw honey harvested from sustainable apiaries, perfect for tea, baking, or straight from the jar.</p>
+                    <div class="price-detail">
+                        <span>$12.99</span>
+                        <button>View Details</button>
+                    </div>
+                </div>
+            </div>
+            <button onclick="product.html" class="product-btn">View All Products</button>
+        </div>
+     </div>
+    <!-- End Product Section -->
+     <!-- Start About Section -->
+      <div class="about-section">
+        <div class="container">
+            <div class="about-content">
+
+                <div class="text">
+                    <h1><span>Our</span> Story</h1>
+                    <p>At Delicious Bites, we believe in the power of good food to bring people together. Our journey began with a simple passion for creating products that delight the senses and nourish the body.</p>
+                    <p>Today, we continue to source the finest ingredients from trusted suppliers, crafting food and beverages that honor traditional techniques while embracing innovative flavors.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+     <!-- End About Section -->
+     <!-- Start Customer Section -->
+      <div class="customer">
+        <div class="container">
+            <h1><span>What Our</span> Customers Say</h1>
+            <div class="customer-opinion">
+                <p>" The quality of these products is outstanding. Every item I've tried has exceeded my expectations. Their attention to detail and commitment to quality ingredients is evident in every bite."</p>
+                <div class="customer-info">
+                    <img src="assets/images/customer.jpg" alt="customer-photo">
+                    <div class="name">
+                       <span>Sarah Johnson</span>
+                       <span>Loyal Customer</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+     <!-- End Customer Section -->
+      <!-- Start Footer -->
+       <div class="footer">
+        <div class="container">
+            <div class="data">
+            <div class="description">
+                <h3>YumMart</h3>
+                <p>Premium food and beverage products with quality<br>ingredients and exceptional taste.</p>
+            </div>
+            <div class="quick-link">
+                  <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="contact-data">
+                <h3>Contact Us</h3>
+                <div class="adress">
+                    <p>123 Flavor Street</p>
+                    <p>Taste City, TC 12345</p>
+                </div>
+                <div class="contact">
+                    <p>Phone: <a href="tel:(555) 123-4567">(555) 123-4567</a></p>
+                    <p>Email: <a href="mailto: info@YumMart.com">info@YumMart.com</a></p>
+                </div>
+                <div class="social">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-l"></i></a>
+                    <a href="https://www.instagram.com/explore/"><i class="fa-brands fa-instagram fa-l"></i></a>
+                    <a href="https://x.com/"><i class="fa-brands fa-x-twitter fa-l"></i></a>
+                </div>
+            </div>
+             </div>
+             <div class="copy-right">
+                <hr>
+                <p>&copy; 2025 YumMart. All rights reserved.</p>
+            </div>
+        </div>
+       </div>
+      <!-- End Footer -->
+
+</body>
+</html>

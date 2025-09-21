@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <!-- Render All Elements Normally-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome Library-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Font Awesome CDN -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xh6O/CkQo7Ix5CfV4UhCkZPSVwCmGPrDA3e4NkpSoR1/5Tdb6tZgUqJY9xkQt8dFZf5z9i6GfFhJZ6L1d0x6tw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fav Icon  -->
+    <link rel="icon" href="assets/icons/YumMart.png" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="container">
+        <span class="logo">YumMart</span>
+        <div class="links">
+          <label for="menu-toggle" class="hidden-menu">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <input type="checkbox" id="menu-toggle" />
+          <div class="slide">
+            <label for="menu-toggle" class="exit-menu">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+
+            <ul>
+              <a href="index.html">Home</a>
+              <a href="product.html" class="active">Products</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start About Special Heading -->
+    <div class="special-heading">
+      <h1>Our Products</h1>
+      <p>
+        Discover our selection of premium food and beverage products, crafted
+        with care using the finest ingredients.
+      </p>
+    </div>
+    <!-- End About Special Heading -->
+    <!-- Start Category -->
+
+    <div class="category-filter">
+      <input type="radio" name="filter" id="all" checked />
+      <input type="radio" name="filter" id="beverages" />
+      <input type="radio" name="filter" id="bakery" />
+      <input type="radio" name="filter" id="pantry" />
+      <input type="radio" name="filter" id="dairy" />
+
+      <div class="filters">
+        <div class="container">
+          <label for="all">All</label>
+          <label for="beverages">Beverages</label>
+          <label for="bakery">Bakery</label>
+          <label for="pantry">Pantry</label>
+          <label for="dairy">Dairy</label>
+        </div>
+      </div>
+
+      <!-- End Category -->
+      <!-- Start Product Cards   -->
+
+      <div class="product-content">
+        <div class="container">
+          <!-- bakery -->
+          <div class="card bakery">
+            <img src="assets/images/bread2.jpg" alt="bread" />
+            <div class="product-header">
+              <h3>Artisan Sourdough Bread</h3>
+              <span class="badge">Bakery</span>
+            </div>
+            <p>
+              Handcrafted sourdough bread made with traditional fermentation
+              methods and organic flour.
+            </p>
+            <div class="price-detail">
+              <span>$8.49</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="card bakery">
+            <img src="assets/images/bakery2.jpg" alt="croissant" />
+            <div class="product-header">
+              <h3>Fresh Butter Croissant</h3>
+              <span class="badge">Bakery</span>
+            </div>
+            <p>
+              Flaky, golden-brown croissant made with rich butter and baked
+              fresh daily.
+            </p>
+            <div class="price-detail">
+              <span>$3.49</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="card bakery">
+            <img src="assets/images/bakery3.jpg" alt="cake" />
+            <div class="product-header">
+              <h3>Cotton Candy Cupcake</h3>
+              <span class="badge">Bakery</span>
+            </div>
+            <p>
+              Fluffy vanilla cupcake topped with creamy frosting and a cloud of
+              cotton candy for a fun, whimsical treat.
+            </p>
+            <div class="price-detail">
+              <span>$4.99</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <!-- Beverages -->
+          <div class="card beverages">
+            <img src="assets/images/beverage.jpg" alt="juice" />
+            <div class="product-header">
+              <h3>Fresh Orange Juice</h3>
+              <span class="badge">Beverages</span>
+            </div>
+            <p>
+              100% natural orange juice, cold-pressed and packed with vitamins.
+            </p>
+            <div class="price-detail">
+              <span>$5.93</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="card beverages">
+            <img src="assets/images/coffee2.jpg" alt="coffee" />
+            <div class="product-header">
+              <h3>Organic Coffee Blend</h3>
+              <span class="badge">Beverages</span>
+            </div>
+            <p>
+              A smooth, rich blend of organic coffee beans with notes of
+              chocolate and caramel.
+            </p>
+            <div class="price-detail">
+              <span>$14.99</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <!-- Pantry -->
+          <div class="card pantry">
+            <img src="assets/images/honey2.jpg" alt="honey" />
+            <div class="product-header">
+              <h3>Premium Honey Collection</h3>
+              <span class="badge">Pantry</span>
+            </div>
+            <p>
+              Pure, raw honey harvested from sustainable apiaries, perfect for
+              tea, baking, or straight from the jar.
+            </p>
+            <div class="price-detail">
+              <span>$12.99</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <!-- dairy -->
+          <div class="card dairy">
+            <img src="assets/images/cheese.jpg" alt="cheese" />
+            <div class="product-header">
+              <h3>Aged Cheddar Cheese</h3>
+              <span class="badge">Dairy</span>
+            </div>
+            <p>
+              Rich and sharp cheddar cheese aged to perfection for bold flavor.
+            </p>
+            <div class="price-detail">
+              <span>$9.99</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Product Cards   -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="data">
+          <div class="description">
+            <h3>YumMart</h3>
+            <p>
+              Premium food and beverage products with quality<br />ingredients
+              and exceptional taste.
+            </p>
+          </div>
+          <div class="quick-link">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="contact-data">
+            <h3>Contact Us</h3>
+            <div class="adress">
+              <p>123 Flavor Street</p>
+              <p>Taste City, TC 12345</p>
+            </div>
+            <div class="contact">
+              <p>Phone: <a href="tel:(555) 123-4567">(555) 123-4567</a></p>
+              <p>
+                Email: <a href="mailto: info@YumMart.com">info@YumMart.com</a>
+              </p>
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook-f fa-l"></i
+              ></a>
+              <a href="https://www.instagram.com/explore/"
+                ><i class="fa-brands fa-instagram fa-l"></i
+              ></a>
+              <a href="https://x.com/"
+                ><i class="fa-brands fa-x-twitter fa-l"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="copy-right">
+          <hr />
+          <p>&copy; 2025 YumMart. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+  </body>
+</html>
